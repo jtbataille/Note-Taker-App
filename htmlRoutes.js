@@ -1,3 +1,4 @@
+// Allows for calling appropriate files with app.get with path
 const path = require("path");
 
 // Written as a module to export into server.js

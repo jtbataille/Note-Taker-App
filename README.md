@@ -24,7 +24,7 @@ HTML, CSS, JavaScript, Express
 ## Application Demo
 On the homepage of the application, the user will see a welcome screen that invites a button-click to take the user to the page in which notes may be written. This page will be accessible with no additional path input (i.e., "/"), as well as any unrecognized path (e.g., "Jimmy Bob" or "cow").
 
-![NTA-Home](asssets/NTA-Home.png)
+![NTA-Home](assets/NTA-Home.png)
 
 When the user clicks the button, a note-page will appear allowing the user to enter his/her note's title and content area. The disk icon in the upper right-hand corner will allow this note to be saved for future reference. This path is reachable through the button, but also by the addition of "/notes" to the end of the existing URL.
 

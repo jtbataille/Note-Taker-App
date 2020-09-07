@@ -1,3 +1,4 @@
+// Allows for use of FS package with writing and reading files
 const fs = require("fs");
 
 // Ensures each note receives an ID

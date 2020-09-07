@@ -16,13 +16,27 @@ Upon opening this application for the first time, the user will be able to enter
 If the note is no longer needed, the user can click the small red trash icon on the right-most side of the saved note in order to permanentely delete the note, maintaining all the other notes that were previously saved.
 
 ## Installation
-
+This application can be accessed and used through on Heroku at the following link: [Note Taker Application](https://vast-caverns-96839.herokuapp.com/)
 
 ## Technologies Used
 HTML, CSS, JavaScript, Express
 
 ## Application Demo
+On the homepage of the application, the user will see a welcome screen that invites a button-click to take the user to the page in which notes may be written. This page will be accessible with no additional path input (i.e., "/"), as well as any unrecognized path (e.g., "Jimmy Bob" or "cow").
 
+![NTA-Home](asssets/NTA-Home.png)
+
+When the user clicks the button, a note-page will appear allowing the user to enter his/her note's title and content area. The disk icon in the upper right-hand corner will allow this note to be saved for future reference. This path is reachable through the button, but also by the addition of "/notes" to the end of the existing URL.
+
+![NTA-Notes](assets/NTA-Notes.png)
+
+Finally, for the purposes of developers, an additional pathway has been added to view all JSON input by the user with the path ending in "/api/notes" to the existing URL.
+
+![NTA-API](assets/NTA-API.png)
+
+A full video of the application's functionality can be seen here:
+
+[Full Application Demo Video]()
 
 ## Contact Information
 * Jarrod Bataille

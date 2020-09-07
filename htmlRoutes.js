@@ -1,5 +1,6 @@
 const path = require("path");
 
+// Written as a module to export into server.js
 module.exports = (app) => {
     
     // Route to send the notes page

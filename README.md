@@ -8,7 +8,7 @@
 * [Application Demo](#application-demo)
 * [Contact Information](#contact-information)
 
-## Descriptio
+## Description
 This is an Express application which allows the busy user to create, save, and delete notes to help remember the important tasks of his/her day.
 
 Upon opening this application for the first time, the user will be able to enter a note's title as well as its content. By clicking a disk icon in the upper right-hand corner of the screen, the user can save this note for later (as it will move to the sidebar on the left-hand side of the screen), keeping the note as long as desired, and begin writing another if need be. When the user returns, s/he will find the previous saved notes stored within the sidebar.

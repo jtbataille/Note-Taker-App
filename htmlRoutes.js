@@ -1,6 +1,7 @@
 const path = require("path");
 
-module.exports = function(app) {
+module.exports = (app) => {
+    
     // Route to send the notes page
     app.get("/notes", (req, res) => {
         res.sendFile(path.join(__dirname, "/public/notes.html"));

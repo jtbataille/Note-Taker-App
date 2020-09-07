@@ -30,7 +30,7 @@ When the user clicks the button, a note-page will appear allowing the user to en
 
 ![NTA-Notes](assets/NTA-Notes.png)
 
-Finally, for the purposes of developers, an additional pathway has been added to view all JSON input by the user with the path ending in "/api/notes" to the existing URL.
+Finally, for the purposes of developers, an additional pathway has been added to view all notes saved by the user as JSON by ending the URL path in "/api/notes" to the existing URL.
 
 ![NTA-API](assets/NTA-API.png)
 

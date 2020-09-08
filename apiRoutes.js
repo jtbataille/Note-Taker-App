@@ -1,5 +1,6 @@
 // Allows for use of FS package with writing and reading files
 const fs = require("fs");
+const { create } = require("domain");
 
 // Ensures each note receives an ID
 var notesData = createNoteId();
@@ -26,6 +27,11 @@ module.exports = (app) => {
     
     // Route to read db.json and show saved notes as JSON
     app.get("/api/notes", (req, res) => {
+        
+        // Ensures each note retains its create ID within the API in order to be called
+        notesData = createNoteId();
+        
+        // Returns all notes in JSON format
         res.json(notesData);
     });
 

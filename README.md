@@ -32,7 +32,7 @@ When the user clicks the button, a note-page will appear allowing the user to en
 
 Finally, for the purposes of developers, an additional pathway has been added to view all notes saved by the user as JSON by ending the URL path in "/api/notes" to the existing URL.
 
-
+![NTA-API](assets/NTA-API.png)
 
 A full video of the application's functionality can be seen here:
 

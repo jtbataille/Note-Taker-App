@@ -16,7 +16,7 @@ Upon opening this application for the first time, the user will be able to enter
 If the note is no longer needed, the user can click the small red trash icon on the right-most side of the saved note in order to permanentely delete the note, maintaining all the other notes that were previously saved.
 
 ## Installation
-This application can be accessed and used through on Heroku at the following link: [Note Taker Application](https://vast-caverns-96839.herokuapp.com/)
+This application can be accessed and used through Heroku at the following link: [Note Taker Application](https://vast-caverns-96839.herokuapp.com/)
 
 ## Technologies Used
 HTML, CSS, JavaScript, Express
